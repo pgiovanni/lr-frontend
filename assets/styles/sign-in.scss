@@ -1,0 +1,17 @@
+.form-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  outline: black 3px solid;
+  padding: 50px;
+  margin: 23% 47%;
+  border-radius: 10px;
+}
+
+html,body, #__nuxt, #__layout{
+  height:100%!important;
+  width: 100%!important;
+  background-color: #1F2E3D !important;
+}

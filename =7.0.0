@@ -1,0 +1,50 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Progress: resolved 143, reused 107, downloaded 0, added 0
+ WARN  deprecated @types/browserslist@4.15.0: This is a stub types definition. browserslist provides its own type definitions, so you do not need this installed.
+ WARN  deprecated @types/anymatch@3.0.0: This is a stub types definition. anymatch provides its own type definitions, so you do not need this installed.
+Progress: resolved 514, reused 492, downloaded 11, added 0
+ WARN  deprecated core-js@2.6.12: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+ WARN  deprecated core-js@2.6.12: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+ WARN  deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+ WARN  deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+ WARN  deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+ WARN  deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+ WARN  deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+ WARN  deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+ WARN  deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+ WARN  deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+ WARN  deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+ WARN  deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+Progress: resolved 1144, reused 1123, downloaded 16, added 0
+ WARN  deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+ WARN  deprecated flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
+Packages: +44 -3
+++++++++++++++++++++++++++++++++++++++++++++---
+Progress: resolved 1441, reused 1423, downloaded 16, added 43, done
+
+dependencies:
++ eslint 8.16.0
+
+devDependencies:
+- @nuxt/typescript-build 2.1.0
++ @nuxt/typescript-build 2.1.0
+- eslint-config-prettier 8.5.0
++ eslint-config-prettier 8.5.0
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ ts-jest
+│ └── ✕ missing peer typescript@">=3.8 <5.0"
+└─┬ nuxt
+  └─┬ @nuxt/builder
+    └─┬ @nuxt/webpack
+      ├─┬ pnp-webpack-plugin
+      │ └─┬ ts-pnp
+      │   └── ✕ missing peer typescript@"*"
+      └─┬ vue-loader
+        └─┬ @vue/component-compiler-utils
+          └─┬ consolidate
+            └── ✕ unmet peer babel-core@^6.26.3: found 7.0.0-bridge.0
+Peer dependencies that should be installed:
+  typescript@">=3.8.0 <5.0.0"
+
